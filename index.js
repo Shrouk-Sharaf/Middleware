@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
     res.send('Session 17!')
 });
 
+app.post('/api', (req, res) => {
+    res.send('Session 17 !!')
+});
+
 app.listen(3000, () => {
     console.log(`Server is running on port 3000`);
 });
